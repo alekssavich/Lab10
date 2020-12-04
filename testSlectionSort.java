@@ -1,8 +1,9 @@
+package SelectionSort.java;
 import static org.junit.Assert.*;
 import org.junit.Assert;import org.junit.Test;
 import org.junit.Test;
 
-public class LargestTest  {
+public class testSelectionSort  {
 	private Largest temp1;
 	@Test
 	public void test() {
@@ -28,8 +29,8 @@ public class LargestTest  {
 		Sortedarr[3] = 9;
 		Sortedarr[4] = 10;
 		
-		Largest temp1 = new Largest();
-		int[] maxValue = temp1.largest(arr);
+		SelectionSort temp1 = new SelectionSort();
+		int[] maxValue = temp1.SelectionSort(arr);
 		assertArrayEquals(Sortedarr,arr);
 		  
 		}
@@ -50,8 +51,8 @@ public class LargestTest  {
 		Sortedarr[3] = -9;
 		Sortedarr[4] = -10;
 		
-		Largest temp1 = new Largest();
-		int[] maxValue = temp1.largest(arr);
+		SelectionSort temp1 = new SelectionSort();
+		int[] maxValue = temp1.SelectionSort(arr);
 		assert maxValue == -2;
 		}
 	
