@@ -5,6 +5,7 @@ import org.junit.Assert;import org.junit.Test;
 import org.junit.Test;
 
 public class testSelectionSort  {
+<<<<<<< HEAD
 	private SelectionSort temp1;
 	@Test
 	public void test() {
@@ -14,6 +15,7 @@ public class testSelectionSort  {
 		testDuplicates();
 
 		}
+>>>>>>> PosNeg
 	public void testPositive(){
 		int[] arr = new int[5];
 		arr[0] = 8;
@@ -56,7 +58,8 @@ public class testSelectionSort  {
 		int[] maxValue = temp1.largest(arr);
 		assert maxValue == -2;
 		}
-	
+
+>>>>>>> MixDup
 	public void testMixes(){        
 		int[] arr = new int[5];
 		arr[0] = -8;
